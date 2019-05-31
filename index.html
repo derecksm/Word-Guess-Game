@@ -13,20 +13,21 @@
 </head>
 
 <body>
-<h1>Hangman Game</h1>
-<h3>Pirates of the Caribbean Edition
+    <h1>Hangman Game</h1>
 
-</h3>
+        <div id="game">
+            <div id="image"></div>
+            <p>Guess Left: <span id="guesses"></span></p>
+            <p id="guess"></p>
+            <p>Letters Guessed: <span id="letters"></span></p>
+            <p>Wins: <span id='wins'></span></p>
+            <p>Losses: <span id='losses'></span></p>
+            <button onclick=" init() ">New Game</button>
+            <div id="result"></div>
 
-<div id="container">
-<div id="answer">answer</div>
-<div id="rightWord">right word</div>
-<div id="wrongWord">wrong word</div>
-<div class="whatever" src = "whatever"></div>
-</div>
-
-    <!--Javascript-->
-    <script src="./javascript/game.js"></script>
+        </div>
+        <!--Javascript-->
+        <script src="./game.js"></script>
 </body>
 
 </html>
