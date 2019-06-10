@@ -48,7 +48,7 @@ const checkEnd = _ => {
         isOver = true
         losses++
         document.querySelector('#losses').textContent = losses
-        document.querySelector('#result').textContent = ' Boohoo you won!'
+        document.querySelector('#result').textContent = ' Boohoo you lost!'
 
     }
 }
